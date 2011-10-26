@@ -1,0 +1,20 @@
+{
+  "author": "Sam Macbeth <sammacbeth@gmail.com>",
+  "name": "bikestats",
+  "description": "Boris bike stats",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~v0.4.11"
+  },
+  "dependencies": {
+    "coffee-script": ">=1.1.2",
+    "express": "2.4.x",
+    "mongoskin": "0.1.x",
+    "restler": "0.2.x"
+  },
+  "devDependencies": {}
+}

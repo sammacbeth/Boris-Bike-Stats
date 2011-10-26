@@ -1,0 +1,14 @@
+!!! 5
+html
+	head
+        meta(name="viewport", content="initial-scale=1.0, user-scalable=no")
+        title="Boris Bike stats"
+		script(type='text/javascript', src="https://www.google.com/jsapi")
+		script(type='text/javascript', src="http://maps.googleapis.com/maps/api/js?sensor=true")
+		script(type='text/javascript', src="superagent.js")
+		script(type='text/javascript', src="dygraph-combined.js")
+		script(type='text/javascript', src="charts.js")
+	body
+		h2 Bike availability
+        #map(style="width: 500px; height: 500px;")
+		#chart(style="width:1000px; height:400px;")
