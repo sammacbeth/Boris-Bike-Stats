@@ -1,0 +1,14 @@
+Requirements
+------------
+* mongodb
+* coffeescript
+
+Configuration
+-------------
+Set URL in mongo.coffee to point to your mongodb server.
+
+Usage
+-----
+coffee scrape.coffee ## Scrapes bike usage data. Run every 15minutes.
+
+coffee app.coffee ## Run the web app.
